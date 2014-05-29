@@ -1,0 +1,12 @@
+
+.metro .tile-group {
+color: #000000;
+}
+
+.metro .tile.quadro {
+width: 100%;
+}
+
+.metro .tile.double-vertical {
+height: 300px;
+}
