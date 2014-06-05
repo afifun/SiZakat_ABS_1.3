@@ -47,48 +47,55 @@
 
 <table class="table striped hovered dataTable" id="dataTables-1">
 	<thead>
-                        <tr>
-                            <th class="text-left">Name</th>
-                            <th class="text-left">Time CP</th>
-                            <th class="text-left">Network</th>
-                            <th class="text-left">Traffic</th>
-                            <th class="text-left">Tiles update</th>
-                        </tr>
-                        </thead>
+		<tr>
+			<th class="text-left">Nama Program</th>
+			<th class="text-left">Target</th>
+			<th class="text-left">Donatur</th>
+		</tr>
+	</thead>
 
-                        <tbody>
-                        <tr><td>Bing</td><td class="right">0:00:01</td><td class="right">0,1 Mb</td><td class="right">0 Mb</td><td class="right">0,1 Mb</td></tr>
-                        <tr><td>Internet Explorer</td><td class="right">0:00:01</td><td class="right">0,1 Mb</td><td class="right">0 Mb</td><td class="right">0,1 Mb</td></tr>
-                        <tr><td>Chrome</td><td class="right">0:00:01</td><td class="right">0,1 Mb</td><td class="right">0 Mb</td><td class="right">0,1 Mb</td></tr>
-                        <tr><td>News</td><td class="right">0:00:01</td><td class="right">0,1 Mb</td><td class="right">0 Mb</td><td class="right">0,1 Mb</td></tr>
-                        <tr><td>Weather</td><td class="right">0:00:01</td><td class="right">0,1 Mb</td><td class="right">0 Mb</td><td class="right">0,1 Mb</td></tr>
-                        <tr><td>Music</td><td class="right">0:00:01</td><td class="right">0,1 Mb</td><td class="right">0 Mb</td><td class="right">0,1 Mb</td></tr>
-                        </tbody>
+	<tbody>
+		<tr>
+			<td>Bing</td>
+			<td class="right">0:00:01</td>
+			<td class="right">0,1 Mb</td>
+		</tr>
+		<tr>
+			<td>Internet Explorer</td>
+			<td class="right">0:00:01</td>
+			<td class="right">0,1 Mb</td>
+		</tr>
+		<tr>
+			<td>Chrome</td>
+			<td class="right">0:00:01</td>
+			<td class="right">0,1 Mb</td>
+		</tr>
+		<tr>
+			<td>News</td>
+			<td class="right">0:00:01</td>
+			<td class="right">0,1 Mb</td>
+		</tr>
+		<tr>
+			<td>Weather</td>
+			<td class="right">0:00:01</td>
+			<td class="right">0,1 Mb</td>
+		</tr>
+		<tr>
+			<td>Music</td>
+			<td class="right">0:00:01</td>
+			<td class="right">0,1 Mb</td>
+		</tr>
+	</tbody>
 
-                        <tfoot>
-                        	<tr>
-                            <th class="text-left">Name</th>
-                            <th class="text-left">Time CP</th>
-                            <th class="text-left">Network</th>
-                            <th class="text-left">Traffic</th>
-                            <th class="text-left">Tiles update</th>
-                        </tr>
-                        </tfoot>
+	<tfoot>
+		<tr>
+			<th class="text-left">Nama Program</th>
+			<th class="text-left">Target</th>
+			<th class="text-left">Donatur</th>
+		</tr>
+	</tfoot>
 </table>
-
-<!--<script>
-                $(function(){
-                    $('#dataTables-1').dataTable( {
-                        "bProcessing": true,
-                        "sAjaxSource": "Metro-UI-CSS-master/docs/data/dataTables-objects.txt",
-                        "aoColumns": [
-                            { "mData": "engine" },
-                            { "mData": "browser" },
-                            { "mData": "platform" },
-                            { "mData": "version" },
-                            { "mData": "grade" }
-                        ]
-                    } );
-                });
-            </script>-->
+<p class="place-right">
+	<a href="program.jsp" class="button  medium">Lihat Selengkapnya</a>
+</p>
 </html>

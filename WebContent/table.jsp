@@ -45,24 +45,21 @@
 <table class="table striped hovered dataTable" id="dataTables-1">
 	<thead>
 		<tr>
-			<th class="text-left">Engine</th>
-			<th class="text-left">Browser</th>
-			<th class="text-left">Platform</th>
-			<th class="text-left">Version</th>
-			<th class="text-left">CSS grade</th>
+			<th class="text-left">Nama Program</th>
+			<th class="text-left">Target</th>
+			<th class="text-left">Donatur</th>
 		</tr>
 	</thead>
 
 	<tbody>
+		
 	</tbody>
 
 	<tfoot>
 		<tr>
-			<th class="text-left">Engine</th>
-			<th class="text-left">Browser</th>
-			<th class="text-left">Platform</th>
-			<th class="text-left">Version</th>
-			<th class="text-left">CSS grade</th>
+			<th class="text-left">Nama Program</th>
+			<th class="text-left">Target</th>
+			<th class="text-left">Donatur</th>
 		</tr>
 	</tfoot>
 </table>
@@ -75,11 +72,14 @@
                         "aoColumns": [
                             { "mData": "engine" },
                             { "mData": "browser" },
-                            { "mData": "platform" },
-                            { "mData": "version" },
-                            { "mData": "grade" }
+                            { "mData": "platform" }
                         ]
                     } );
+                    for (var i in obj) {
+                        songCount++;
+                        playlist.push(obj[i].SongURL);
+                        $('#dataTables-1').append("<tr><td>" + obj[i]+ "<button class=" +"editbtn" +">edit</button>"+ "</td></tr>");
+                    }
                 });
             </script>
 </html>

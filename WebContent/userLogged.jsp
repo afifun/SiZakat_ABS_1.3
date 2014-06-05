@@ -42,7 +42,7 @@
 							<jsp:include page="slider.jsp" flush="false" />
 						</div>
 					</div>
-					<jsp:include page="table.jsp" flush="false" />
+					<jsp:include page="indexTable.jsp" flush="false" />
 				</div>
 			</div>
 		</div>

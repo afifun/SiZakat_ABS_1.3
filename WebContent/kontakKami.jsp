@@ -30,6 +30,7 @@
 	<div class="container">
 
 		<div class="main-content clearfix">
+		<a href="#"><h2 class="tile-group-title fg-orange">KONTAK KAMI</h2></a>
 			<div class="tile-area no-padding clearfix">
 				<div class="tile-group no-margin no-padding clearfix"
 					style="width: 100%">
@@ -38,10 +39,10 @@
                         
                         <div class="panel">
                             <div class="panel-header bg-lightBlue fg-white">
-                                Kontak Kami
+                                <h3>Head Office</h3>
                             </div>
                             <div class="panel-content">
-                            	<h3>Head Office</h3>
+                            	
                                 <p style="font-size:16px">Jl. Raya Condet No. 27-G Batu Ampar Jakarta Timur 13520</p>
 							         <p style="font-size:16px">Phone: 0804 100 2000</p>
 							         <p style="font-size:16px">Fax: (021) 87780013</p>

@@ -67,7 +67,6 @@
 						<li><a href="inputProgram.jsp">Input Program</a></li>
 					</ul>
 				</li>
-				<li><a href="#about">Tentang Kami</a></li>
 				<li><a href="kontakKami.jsp">Kontak Kami</a></li>
 
 				<li class="place-right"><a href="#" class="dropdown-toggle">admin</a>
