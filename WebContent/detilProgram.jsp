@@ -53,29 +53,35 @@
 	<div class="container">
 
 		<div class="main-content clearfix">
-			<a href="#"><h2 class="tile-group-title fg-orange">DETIL PROGRAM</h2></a>
+			<a href="#"><h2 class="tile-group-title fg-orange">DETIL
+					PROGRAM</h2></a>
 			<div class="tile-area no-padding clearfix">
 				<div class="tile-group no-margin no-padding clearfix"
 					style="width: 100%">
-					    	<div class="tile triple double-vertical ol-transparent bg-white" style="width: 100%;">
-                        <div class="tile-content">
-                            <div class="panel no-border">
-                                <div class="panel-header bg-darkRed fg-white">Pembangunan Masjid   (21/5/2014 - 15/5/2014)</div>
-                                <div class="panel-content fg-dark nlp nrp">
-                                    <img src="Metro-UI-CSS-master/docs/images/3.jpg" class="place-left margin10 nlm ntm">
-                                    <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's standard dummy text.
-                                    <h2></h2>
-                                    <h2></h2>
-                                    <h2></h2>
-                                    <h2>Target : Jabodetabek</h2>
-                                    <h2>Biaya : Rp. 100.000.000</h2>
-                                    <h2>Donatur : PT. Pertamina</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+					<div class="tile triple double-vertical ol-transparent bg-white"
+						style="width: 100%;">
+						<div class="tile-content">
+							<div class="panel no-border">
+								<div class="panel-header bg-darkRed fg-white">Pembangunan
+									Masjid (21/5/2014 - 15/5/2014)</div>
+								<div class="panel-content fg-dark nlp nrp">
+									<img src="Metro-UI-CSS-master/docs/images/3.jpg"
+										class="place-left margin10 nlm ntm"> <strong>Lorem
+										Ipsum</strong> is simply dummy text of the printing and typesetting
+									industry. Lorem Ipsum has been the industry's standard dummy
+									text ever since the 1500s, when an unknown printer took a
+									galley of type and scrambled it to make a type specimen book.
+									Lorem Ipsum has been the industry's standard dummy text.
+									<h2></h2>
+									<h2></h2>
+									<h2></h2>
+									<h2>Target : Jabodetabek</h2>
+									<h2>Biaya : Rp. 100.000.000</h2>
+									<h2>Donatur : PT. Pertamina</h2>
+								</div>
+							</div>
+						</div>
+					</div>
 
 				</div>
 			</div>

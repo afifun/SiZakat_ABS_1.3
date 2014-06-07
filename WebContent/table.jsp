@@ -52,7 +52,7 @@
 	</thead>
 
 	<tbody>
-		
+
 	</tbody>
 
 	<tfoot>

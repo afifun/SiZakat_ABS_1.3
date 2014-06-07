@@ -71,8 +71,7 @@
 				<li><a href="program.jsp" class="dropdown-toggle">Program</a>
 					<ul class="dropdown-menu" data-show="hover">
 						<li><a href="program.jsp">Lihat Program</a></li>
-					</ul>
-				</li>
+					</ul></li>
 				<li><a href="kontakKami.jsp">Kontak Kami</a></li>
 
 				<li class="place-right"><a href="#" class="dropdown-toggle">admin</a>

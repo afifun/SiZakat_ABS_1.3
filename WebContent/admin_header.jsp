@@ -65,15 +65,13 @@
 					<ul class="dropdown-menu" data-show="hover">
 						<li><a href="program.jsp">Lihat Program</a></li>
 						<li><a href="inputProgram.jsp">Input Program</a></li>
-					</ul>
-				</li>
+					</ul></li>
 				<li><a href="kontakKami.jsp">Kontak Kami</a></li>
 
 				<li class="place-right"><a href="#" class="dropdown-toggle">admin</a>
 					<ul class="dropdown-menu place-right" data-show="hover">
 						<li><a href="login.jsp">Login</a></li>
-					</ul>
-				</li>
+					</ul></li>
 			</ul>
 		</div>
 	</div>

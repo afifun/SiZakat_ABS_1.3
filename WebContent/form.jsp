@@ -27,48 +27,48 @@
 <form>
 	<fieldset>
 		<label>Nama</label>
-<div class="input-control text" data-role="input-control">
-	<input type="text" placeholder="type text">
-	<button class="btn-clear" tabindex="-1"></button>
-</div>
-<label>Deskripsi</label>
-<div>
-	<textarea style="width: 100%; height: 200px"></textarea>
-</div>
-<label>Tanggal</label>
-<input class="input-control text" id="datePicker" type="date" />
+		<div class="input-control text" data-role="input-control">
+			<input type="text" placeholder="type text">
+			<button class="btn-clear" tabindex="-1"></button>
+		</div>
+		<label>Deskripsi</label>
+		<div>
+			<textarea style="width: 100%; height: 200px"></textarea>
+		</div>
+		<label>Tanggal</label> <input class="input-control text"
+			id="datePicker" type="date" />
 
-<script>
-        $(function () {
+		<script>
+			$(function() {
 
-            $("#datePicker").igDatePicker();
+				$("#datePicker").igDatePicker();
 
-        });
-    </script>
+			});
+		</script>
 
-<label>Target</label>
-<div class="input-control text" data-role="input-control">
-	<input type="text" placeholder="type text">
-	<button class="btn-clear" tabindex="-1"></button>
-</div>
-<label>Biaya</label>
-<div class="input-control text" data-role="input-control">
-	<input type="text" placeholder="type text">
-	<button class="btn-clear" tabindex="-1"></button>
-</div>
-<label>Status</label>
-<div class="input-control text" data-role="input-control">
-	<input type="text" placeholder="type text">
-	<button class="btn-clear" tabindex="-1"></button>
-</div>
-<label>Foto</label>
+		<label>Target</label>
+		<div class="input-control text" data-role="input-control">
+			<input type="text" placeholder="type text">
+			<button class="btn-clear" tabindex="-1"></button>
+		</div>
+		<label>Biaya</label>
+		<div class="input-control text" data-role="input-control">
+			<input type="text" placeholder="type text">
+			<button class="btn-clear" tabindex="-1"></button>
+		</div>
+		<label>Status</label>
+		<div class="input-control text" data-role="input-control">
+			<input type="text" placeholder="type text">
+			<button class="btn-clear" tabindex="-1"></button>
+		</div>
+		<label>Foto</label>
 
-<div class="input-control text" data-role="input-control">
-	<input type="file" name="pic" accept="image/*">
-</div>
+		<div class="input-control text" data-role="input-control">
+			<input type="file" name="pic" accept="image/*">
+		</div>
 
 
-<button class="button large primary" style="margin-top:20px">Simpan</button>
+		<button class="button large primary" style="margin-top: 20px">Simpan</button>
 	</fieldset>
 
 </form>
